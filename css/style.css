@@ -34,7 +34,7 @@ body{
     color: #FFF;
 }
 
-.btn{
+.btn, #boton3 p{
 	background-color: #41521F;
 	color: #FFF;
 	font-weight: bold;
@@ -115,4 +115,10 @@ footer{
 
 .modal-title{
 	color: #000;
+}
+
+#boton3 p{
+	margin-top: 30px;
+	padding: 10px;
+	border-radius: 10px;
 }
