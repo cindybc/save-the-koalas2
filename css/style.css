@@ -10,9 +10,6 @@ body{
 
 .first-section{
 	background-image: url(../img/portada.jpg);
-}
-
-.first-section, .four-section{
 	height: 100vh;
 	background-position: center;
 	background-size: cover;
@@ -43,8 +40,8 @@ body{
 	font-weight: bold;
 }
 
-.second-section, .five-section{
-	margin: 100px auto;
+.second-section, .five-section, .four-section{
+	margin: 90px auto;
 	color: #757070;
 }
 
@@ -66,12 +63,6 @@ body{
 .green{
 	color: #41521F;
 	font-weight: bold;
-}
-
-.four-section{
-	background-image: url(../img/all.jpg);
-	padding: 80px 0;
-	color: #FFF;
 }
 
 h2{
