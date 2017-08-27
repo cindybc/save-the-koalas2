@@ -7,7 +7,6 @@ body{
 	font-weight: bold;
 
 }
-
 .first-section{
 	background-image: url(../img/portada.jpg);
 	height: 100vh;
@@ -20,9 +19,11 @@ body{
 	color: #FFF;
 	font-weight: bold;
 }
-
+.navbar{
+	background-color: #41521F;
+}
 .navbar-toggle .icon-bar{
-	background-color: #757070;
+	background-color: #FFF;
 }
 
 .navbar-toggle {
@@ -49,7 +50,7 @@ body{
 	color: #A89F68;
 	font-weight: bold;
 }
-
+/*Seccion tres*/
 .third-section{
 	background-color: #A89F68; 
 	padding: 80px 0;
@@ -73,6 +74,10 @@ h2{
 	padding-top: 30px;
 	color: #A89F68;
 	font-size: 80px; 
+}
+.carousel-inner img{
+	width: 100% !important;
+	height: 80vh !important;
 }
 
 .six-section{
@@ -106,7 +111,7 @@ sub{
 footer{
 	background-color: #41521F;
 	color: #FFF;
-	padding: 80px;
+	padding: 80px 0;
 }
 
 .listaFooter li a{
